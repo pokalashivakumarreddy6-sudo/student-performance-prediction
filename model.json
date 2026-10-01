@@ -1,0 +1,25 @@
+{
+  "intercept": -3.327985207432164,
+  "coef": {
+    "study_hours": 3.18431641198709,
+    "attendance": 0.27854212044069593,
+    "previous_score": 0.44505188232810894,
+    "sleep_hours": 1.2621674826190512
+  },
+  "metrics": {
+    "Linear Regression": {
+      "R2": 0.912,
+      "MAE": 3.43
+    },
+    "Random Forest": {
+      "R2": 0.9,
+      "MAE": 3.87
+    }
+  },
+  "importance": {
+    "sleep_hours": 0.041,
+    "attendance": 0.12,
+    "previous_score": 0.358,
+    "study_hours": 0.481
+  }
+}
